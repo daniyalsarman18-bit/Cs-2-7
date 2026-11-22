@@ -1,0 +1,21 @@
+name: BaldyrexSO2
+options:
+  bundleIdPrefix: com.baldyrex
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  BaldyrexSO2:
+    type: application
+    platform: iOS
+    sources:
+      - BaldyrexSO2App.swift
+      - ContentView.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.baldyrex.so2menu
+        PRODUCT_NAME: BaldyrexSO2
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Baldyrex SO2"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
